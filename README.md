@@ -4,7 +4,7 @@ pools, each with their own daemon and stratum port :)
 #### Notice
 This is a module for Node.js that will do nothing on its own. Unless you're a Node.js developer who would like to
 handle stratum authentication and raw share data then this module will not be of use to you. For a full featured portal
-that uses this module, see [s-nomp (Some New Open Mining Portal)](https://github.com/s-nomp/s-nomp). It
+that uses this module, see [s-nomp (Some New Open Mining Portal)](https://github.com/marcofortina/s-nomp). It
 handles payments, website front-end, database layer, mutli-coin/pool support, auto-switching miners between coins/pools,
 etc.. The portal also has an [MPOS](https://github.com/MPOS/php-mpos) compatibility mode so that the it can function as
 a drop-in-replacement for [python-stratum-mining](https://github.com/Crypto-Expert/stratum-mining).
@@ -51,7 +51,7 @@ Example Usage
 #### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/s-nomp/node-stratum-pool.git node_modules/stratum-pool
+git clone https://github.com/marcofortina/node-stratum-pool.git node_modules/stratum-pool
 npm update
 ```
 
